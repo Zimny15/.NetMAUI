@@ -1,0 +1,1 @@
+C:\Users\zimak\source\repos\.NetMAUI\ToDoList\ToDoList\ToDoList.csproj;x64
