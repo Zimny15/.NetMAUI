@@ -12,12 +12,12 @@ public partial class NewPage1 : ContentPage
 	{
 		InitializeComponent();
         LoadTasks();
+        TasksListView.ItemsSource = newTasks;
     }
 
     private async void LoadTasks()
     {
         tasks = await TaskStorage.LoadTasksAsync();
-        TasksListView.ItemsSource = newTasks;
     }
 
     private void Button_Clicked(object sender, EventArgs e)
@@ -33,7 +33,6 @@ public partial class NewPage1 : ContentPage
 
         TaskModel newTask = new TaskModel(taskName, string.IsNullOrWhiteSpace(taskDescription) ? null : taskDescription);
         newTasks.Add(newTask);
-        tasks.Add(newTask);
 
         TaskNameEntry.Text = string.Empty;
         TaskDescriptionEditor.Text = string.Empty;
@@ -41,11 +40,31 @@ public partial class NewPage1 : ContentPage
 
     private async void SaveButton_Clicked(object sender, EventArgs e)
     {
-        LoadTasks();
-        await TaskStorage.SaveTasksAsync(tasks);
-        await DisplayAlert("Success", $"You added {DisplayAddedTasks()} to list", "OK!");
-        newTasks.Clear();
-        tasks.Clear();
+        if (tasks.Count > 0)
+        {
+            tasks.Clear();
+            var loadedTasks = await TaskStorage.LoadTasksAsync();
+            if (loadedTasks != null)
+            {
+                foreach (var task in loadedTasks)
+                {
+                    tasks.Add(task);
+                }
+            }
+        }
+        if (newTasks.Count > 0)
+        {
+            foreach (var task in newTasks)
+            {
+                tasks.Add(task);
+            }
+            await TaskStorage.SaveTasksAsync(tasks);
+            await DisplayAlert("Success", $"You added {DisplayAddedTasks()} to list", "OK!");
+            newTasks.Clear();
+        }
+        else
+            await DisplayAlert("Fail", $"You have no new tasks to add", "OK!");
+        
     }
     private string DisplayAddedTasks()
     {
@@ -64,7 +83,6 @@ public partial class NewPage1 : ContentPage
         {
             var taskToRemove = newTasks[newTasks.Count - 1];
             newTasks.RemoveAt(newTasks.Count -1);
-            tasks.Remove(taskToRemove);
         }
     }
 }
