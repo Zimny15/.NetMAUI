@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoList.NewPage2"
+             Title="View tasks list">
+    <VerticalStackLayout>
+        <Label Text="Your Tasks"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="10"/>
+
+        <ListView x:Name="TaskListView"
+                  ItemsSource="{Binding tasks}"
+                  HasUnevenRows="True"
+                  Margin="10">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout Padding="10" Spacing="15">
+
+                            <CheckBox IsChecked="{Binding IsCompleted}" />
+
+                            <VerticalStackLayout>
+                                <Label Text="{Binding Name}" FontSize="18" />
+                                <Label Text="{Binding Description}" 
+                                       FontSize="14"
+                                       TextColor="Gray"
+                                       IsVisible="{Binding Description, Converter={StaticResource NullToBooleanConverter}}" />
+                            </VerticalStackLayout>
+
+                            <Button Text="❌" 
+                                    BackgroundColor="Red"
+                                    Clicked="OnDeleteButton_Clicked"
+                                    CommandParameter="{Binding .}"/>
+
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

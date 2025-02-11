@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoList.NewPage1"
+             Title="Add tasks">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to YOUR TO-DO List"
+            TextColor="White"
+            FontSize="24"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Margin="10,10,10,0"
+            />
+        <Label 
+            Text="Save your added tasks to see it on your TO-DO List"
+            TextColor="Grey"
+            FontSize="10"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+
+        <Entry x:Name="TaskNameEntry"
+               Placeholder="Enter task name"
+               FontSize="18"
+               Margin="10"/>
+
+        <Editor x:Name="TaskDescriptionEditor"
+                Placeholder="Enter task description (optional)"
+                FontSize="16"
+                AutoSize="TextChanges" 
+                Margin="10"/>
+
+        <HorizontalStackLayout Margin="10" HorizontalOptions="Center">
+            <Button Text="Add Task"
+                BackgroundColor="Green"
+                TextColor="White"
+                FontSize="18"
+                Clicked="Button_Clicked"
+                Margin="10"
+                HorizontalOptions="Center"/>
+            <Button Text="Delete last task"
+                BackgroundColor="Red"
+                TextColor="White"
+                FontSize="18"
+                Clicked="DeleteButton_Clicked"
+                Margin="10"
+                HorizontalOptions="Center"/>
+            
+            <Button Text="Save List"
+                BackgroundColor="Blue"
+                TextColor="White"
+                FontSize="18"
+                Clicked="SaveButton_Clicked"
+                Margin="10"
+                HorizontalOptions="Center"/>
+        </HorizontalStackLayout>
+
+        
+        
+        <Label Text="Tasks added:" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" Margin="10"/>
+
+        <ListView x:Name="TasksListView" HorizontalOptions="Center" Margin="10">
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <TextCell Text="{Binding Name}" ></TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

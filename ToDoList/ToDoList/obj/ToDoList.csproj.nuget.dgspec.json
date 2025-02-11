@@ -77,11 +77,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.83, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.83, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -104,39 +104,23 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Android.Ref.34",
-              "version": "[34.0.145, 34.0.145]"
+              "version": "[34.0.147, 34.0.147]"
             },
             {
               "name": "Microsoft.Android.Runtime.34.android-arm",
-              "version": "[34.0.145, 34.0.145]"
+              "version": "[34.0.147, 34.0.147]"
             },
             {
               "name": "Microsoft.Android.Runtime.34.android-arm64",
-              "version": "[34.0.145, 34.0.145]"
+              "version": "[34.0.147, 34.0.147]"
             },
             {
               "name": "Microsoft.Android.Runtime.34.android-x64",
-              "version": "[34.0.145, 34.0.145]"
+              "version": "[34.0.147, 34.0.147]"
             },
             {
               "name": "Microsoft.Android.Runtime.34.android-x86",
-              "version": "[34.0.145, 34.0.145]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.android-arm",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.android-arm64",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.android-x64",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.android-x86",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[34.0.147, 34.0.147]"
             }
           ],
           "frameworkReferences": {
@@ -158,11 +142,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.83, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.83, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -185,15 +169,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.iOS.Ref.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
+              "version": "[18.0.8319, 18.0.8319]"
             },
             {
               "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[18.0.8319, 18.0.8319]"
             }
           ],
           "frameworkReferences": {
@@ -215,11 +195,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.83, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.83, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -243,15 +223,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
+              "version": "[18.0.8319, 18.0.8319]"
             },
             {
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[18.0.8319, 18.0.8319]"
             }
           ],
           "frameworkReferences": {
@@ -273,11 +249,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.83, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.83, )"
+              "version": "[8.0.100, )"
             }
           },
           "imports": [

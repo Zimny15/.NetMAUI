@@ -7,9 +7,19 @@
     Shell.FlyoutBehavior="Disabled"
     Title="ToDoList">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+        <ShellContent
+            Title="TO-DO Add"
+            ContentTemplate="{DataTemplate local:NewPage1}"
+            Route="NewPage1" />
+        <ShellContent
+            Title="TO-DO List"
+            ContentTemplate="{DataTemplate local:NewPage2}"
+            Route="NewPage2" />
+        
+    </TabBar>
 </Shell>
