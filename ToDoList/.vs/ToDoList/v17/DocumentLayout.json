@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\zimak\\source\\repos\\.NetMAUI\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|c:\\users\\zimak\\source\\repos\\.netmaui\\todolist\\todolist\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|c:\\users\\zimak\\source\\repos\\.netmaui\\todolist\\todolist\\newpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\newpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|c:\\users\\zimak\\source\\repos\\.netmaui\\todolist\\todolist\\newpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\newpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|c:\\users\\zimak\\source\\repos\\.netmaui\\todolist\\todolist\\newpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\newpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|c:\\users\\zimak\\source\\repos\\.netmaui\\todolist\\todolist\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A31A24C1-3781-4E75-BAE7-9ED70B2B502C}|ToDoList\\ToDoList.csproj|c:\\users\\zimak\\source\\repos\\.netmaui\\todolist\\todolist\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,33 +78,33 @@
               "RelativeDocumentMoniker": "ToDoList\\NewPage2.xaml.cs",
               "ToolTip": "C:\\Users\\zimak\\source\\repos\\.NetMAUI\\ToDoList\\ToDoList\\NewPage2.xaml.cs",
               "RelativeToolTip": "ToDoList\\NewPage2.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwC4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T18:32:58.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NewPage2.xaml",
               "DocumentMoniker": "C:\\Users\\zimak\\source\\repos\\.NetMAUI\\ToDoList\\ToDoList\\NewPage2.xaml",
               "RelativeDocumentMoniker": "ToDoList\\NewPage2.xaml",
               "ToolTip": "C:\\Users\\zimak\\source\\repos\\.NetMAUI\\ToDoList\\ToDoList\\NewPage2.xaml",
               "RelativeToolTip": "ToDoList\\NewPage2.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-10T18:32:57.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NewPage1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zimak\\source\\repos\\.NetMAUI\\ToDoList\\ToDoList\\NewPage1.xaml.cs",
               "RelativeDocumentMoniker": "ToDoList\\NewPage1.xaml.cs",
               "ToolTip": "C:\\Users\\zimak\\source\\repos\\.NetMAUI\\ToDoList\\ToDoList\\NewPage1.xaml.cs",
               "RelativeToolTip": "ToDoList\\NewPage1.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADgvzQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T18:32:54.024Z",
               "EditorCaption": ""

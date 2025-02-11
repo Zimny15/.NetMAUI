@@ -38,4 +38,13 @@ public partial class NewPage2 : ContentPage
             await RefreshList();
         }
     }
+
+    private async void CheckBox_CheckedChanged(object sender, CheckedChangedEventArgs e)
+    {
+        if (sender is CheckBox checkBox && checkBox.BindingContext is TaskModel task)
+        {
+            task.IsCompleted = e.Value;
+            await TaskStorage.SaveTasksAsync(tasks);
+        }
+    }
 }

@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\zimak\source\repos\.NetMAUI\ToDoList\ToDoList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-02-11T10:37:36.317</Modified>
+      <Modified>2025-02-11T11:09:51.517</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zimak\source\repos\.NetMAUI\ToDoList\ToDoList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ToDoList.dll">
       <PackagePath>ToDoList.dll</PackagePath>
-      <Modified>2025-02-11T10:37:35.788</Modified>
+      <Modified>2025-02-11T11:09:50.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zimak\source\repos\.NetMAUI\ToDoList\ToDoList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ToDoList.exe</PackagePath>
-      <Modified>2025-02-11T10:37:35.797</Modified>
+      <Modified>2025-02-11T11:09:50.808</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zimak\source\repos\.NetMAUI\ToDoList\ToDoList\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
